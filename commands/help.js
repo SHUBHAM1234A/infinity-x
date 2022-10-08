@@ -64,7 +64,7 @@ module.exports = {
       embed.setThumbnail("https://i.imgur.com/0A9Cre8.jpg");
       embed.addFields(
         { name: "\u200B", value: "\u200B" },
-        { name: "`>userid`", value: "Shows user's tag and ID", inline: false },
+        { name: "`>userinfo`", value: "Shows user's tag and ID", inline: false },
         {
           name: "`>avatar`",
           value:
@@ -129,7 +129,7 @@ module.exports = {
           inline: false,
         },
         {
-          name: "`>getuserinfo`",
+          name: "`>userinfo`",
           value: "Shows user's information",
           inline: false,
         },
